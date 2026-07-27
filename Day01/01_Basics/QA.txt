@@ -1,0 +1,31 @@
+Here are concise one-line answers suitable for interviews or quick revision:
+
+1. **What is the difference between `=` and `==`?**
+   `=` assigns a value to a variable, while `==` compares two values for equality.
+
+2. **Why does `input()` always return a string?**
+   `input()` returns user input as a string because keyboard input is read as text.
+
+3. **When should you use `int()`, `float()`, and `str()`?**
+   Use `int()` for integers, `float()` for decimal numbers, and `str()` to convert values into strings.
+
+4. **What is a virtual environment, and why is it useful?**
+   A virtual environment creates an isolated Python environment to manage project-specific dependencies.
+
+5. **What is `pip`?**
+   `pip` is Python's package manager used to install, update, and manage external libraries.
+
+6. **What is the difference between a list, tuple, dictionary, and set?**
+   A list is ordered and mutable, a tuple is ordered and immutable, a dictionary stores key-value pairs, and a set stores unique unordered values.
+
+7. **What are f-strings, and why are they preferred?**
+   f-strings allow variables and expressions to be embedded directly in strings, making code more readable and efficient.
+
+8. **What does `type()` return?**
+   `type()` returns the data type (class) of an object.
+
+9. **Why is PEP 8 important?**
+   PEP 8 provides Python coding style guidelines to improve code readability and consistency.
+
+10. **How do you run a Python file from the terminal?**
+    Run it using `python filename.py` or `py filename.py` from the terminal.
