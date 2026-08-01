@@ -1,5 +1,5 @@
 
-
+from logger import logging
 
 from models.employee import Employee
 from models.manager import Manager
@@ -8,6 +8,7 @@ from models.manager import Manager
 class EmployeeService:
     def __init__(self):
         self.employees = []
+        logging.info("EmployeeService initialized with an empty employee list.")
         
     def add_employee(self):
         try:
@@ -18,12 +19,15 @@ class EmployeeService:
             employee = Employee(emp_id, name, department, salary)
             self.employees.append(employee)
             print("Employee added successfully.")
+            logging.info(f"Employee added: {employee.emp_id} - {employee.name}")
         except ValueError:
             print("Invalid input. Please enter a valid salary.")
+            logging.error("Invalid salary input while adding employee.")
             
     def display_all(self):
         if len(self.employees) == 0:
             print("No employees to display.")
+            logging.info("No employees to display.")
             return
         for employee in self.employees:
             print(":-------------------------------")
@@ -41,6 +45,7 @@ class EmployeeService:
             print("Employee not found.")
         except ValueError:
             print("Invalid input. Please enter a valid Employee ID.")
+            logging.error("Invalid Employee ID input while searching employee.")
     def remove_employee(self):
         try:
             emp_id = input("Enter Employee ID to remove: ")
@@ -48,10 +53,13 @@ class EmployeeService:
                 if employee.emp_id == emp_id:
                     self.employees.remove(employee)
                     print("Employee removed successfully.")
+                    logging.info(f"Employee removed: {employee.emp_id} - {employee.name}")
                     return
             print("Employee not found.")
+            logging.warning(f"Attempted to remove non-existent employee with ID: {emp_id}")
         except ValueError:
             print("Invalid input. Please enter a valid Employee ID.")
+            logging.error("Invalid Employee ID input while removing employee.")
             
     def update_employee(self):
         try:
@@ -65,8 +73,11 @@ class EmployeeService:
                     employee.department = department
                     employee.salary = salary
                     print("Employee updated successfully.")
+                    logging.info(f"Employee updated: {employee.emp_id} - {employee.name}")
                     return
             print("Employee not found.")
+            logging.warning(f"Attempted to update non-existent employee with ID: {emp_id}")
         except ValueError:
             print("Invalid input. Please enter a valid salary.")
+            logging.error("Invalid salary input while updating employee.")
 

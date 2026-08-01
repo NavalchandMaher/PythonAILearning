@@ -1,0 +1,46 @@
+INFO:root:This is an info message
+INFO:root:This is an info message
+WARNING:root:This is a warning message
+ERROR:root:This is an error message
+INFO:root:This is an info message
+WARNING:root:This is a warning message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message
+INFO:root:This is an info message
+2026-08-01 13:33:48,367:INFO:This is an info message
+2026-08-01 13:33:48,368:WARNING:This is a warning message
+2026-08-01 13:33:48,368:ERROR:This is an error message
+2026-08-01 13:33:48,368:INFO:This is an info message
+2026-08-01 13:33:48,368:WARNING:This is a warning message
+2026-08-01 13:33:48,368:ERROR:This is an error message
+2026-08-01 13:33:48,369:CRITICAL:This is a critical message
+2026-08-01 13:36:20,796:INFO:This is an info message from the singleton logger
+2026-08-01 13:36:20,796:INFO:This is an info message from the singleton logger
+2026-08-01 13:36:20,797:WARNING:This is a warning message from the singleton logger
+2026-08-01 13:36:20,797:WARNING:This is a warning message from the singleton logger
+2026-08-01 13:36:20,797:ERROR:This is an error message from the singleton logger
+2026-08-01 13:36:20,797:ERROR:This is an error message from the singleton logger
+2026-08-01 13:36:20,797:CRITICAL:This is a critical message from the singleton logger
+2026-08-01 13:36:20,797:CRITICAL:This is a critical message from the singleton logger
+2026-08-01 13:36:24,001:INFO:This is an info message from the singleton logger
+2026-08-01 13:36:24,001:INFO:This is an info message from the singleton logger
+2026-08-01 13:36:24,001:WARNING:This is a warning message from the singleton logger
+2026-08-01 13:36:24,001:WARNING:This is a warning message from the singleton logger
+2026-08-01 13:36:24,002:ERROR:This is an error message from the singleton logger
+2026-08-01 13:36:24,002:ERROR:This is an error message from the singleton logger
+2026-08-01 13:36:24,002:CRITICAL:This is a critical message from the singleton logger
+2026-08-01 13:36:24,002:CRITICAL:This is a critical message from the singleton logger
+2026-08-01 13:42:04,106:INFO:This is an info message from the singleton logger
+2026-08-01 13:42:04,106:INFO:This is an info message from the singleton logger
+2026-08-01 13:42:04,106:WARNING:This is a warning message from the singleton logger
+2026-08-01 13:42:04,106:WARNING:This is a warning message from the singleton logger
+2026-08-01 13:42:04,106:ERROR:This is an error message from the singleton logger
+2026-08-01 13:42:04,106:ERROR:This is an error message from the singleton logger
+2026-08-01 13:42:04,106:CRITICAL:This is a critical message from the singleton logger
+2026-08-01 13:42:04,106:CRITICAL:This is a critical message from the singleton logger
+2026-08-01 13:42:04,106:INFO:{'name': 'John', 'age': 20, 'courses': ['Math', 'Science']}
+2026-08-01 13:42:04,106:INFO:{'name': 'John', 'age': 20, 'courses': ['Math', 'Science']}
+2026-08-01 13:42:04,107:INFO:JSON data has been written to student.json
+2026-08-01 13:42:04,107:INFO:JSON data has been written to student.json
+2026-08-01 13:42:04,109:INFO:{'name': 'John', 'age': 20, 'courses': ['Math', 'Science']}
+2026-08-01 13:42:04,109:INFO:{'name': 'John', 'age': 20, 'courses': ['Math', 'Science']}

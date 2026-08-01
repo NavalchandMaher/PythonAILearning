@@ -1,0 +1,47 @@
+[
+    {
+        "student_id": "01",
+        "name": "Naval",
+        "age": 32
+    },
+    {
+        "student_id": "02",
+        "name": "Dipu",
+        "age": 24
+    },
+    {
+        "student_id": "03",
+        "name": "Amol",
+        "age": 44
+    },
+    {
+        "student_id": "01",
+        "name": "Naval",
+        "age": 32
+    },
+    {
+        "student_id": "02",
+        "name": "Dipu",
+        "age": 24
+    },
+    {
+        "student_id": "03",
+        "name": "Amol",
+        "age": 44
+    },
+    {
+        "student_id": "04",
+        "name": "Raju",
+        "age": 55
+    },
+    {
+        "student_id": "05",
+        "name": "Sonu",
+        "age": 56
+    },
+      {
+        "student_id": "06",
+        "name": "Dinu",
+        "age": 56
+    }
+]

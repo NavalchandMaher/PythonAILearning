@@ -1,0 +1,8 @@
+2026-08-01 15:59:35,753 : INFO : Logger initialized successfully
+2026-08-01 16:00:52,282 : INFO : Logger initialized successfully
+2026-08-01 16:01:53,044 : INFO : Logger initialized successfully
+2026-08-01 16:05:02,335 : INFO : Logger initialized successfully
+2026-08-01 16:13:11,881 : INFO : No students to display.
+2026-08-01 16:13:44,128 : INFO : Added student: 001, Janvi, 19
+2026-08-01 16:13:55,058 : ERROR : Invalid data in CSV file. Data type mismatch.
+2026-08-01 16:14:16,522 : INFO : Exported students to CSV file: students_records.csv
