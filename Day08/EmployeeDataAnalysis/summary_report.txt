@@ -1,0 +1,24 @@
+===== EMPLOYEE DATA ANALYSIS REPORT =====
+
+Total Employees: 10
+Average Salary: ₹86,500.00
+Maximum Salary: ₹120000.00
+Minimum Salary: ₹60000.00
+Average Age: 30.10
+
+Department-wise Average Salary:
+Finance: ₹106,666.67
+HR: ₹75,000.00
+IT: ₹80,000.00
+
+Highest Paid Employee:
+Name: Vikas
+Salary: ₹120,000.00
+
+Youngest Employee:
+Name: Rahul
+Age: 25
+
+Oldest Employee:
+Name: Karan
+Age: 40
